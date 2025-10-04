@@ -18,9 +18,16 @@ int     array_sum(int array[], int size)
 
 int main()
 {
-    int array[] = {1,2,6,9,8,7,6,5};
-    int size = 8;
-    int result = array_sum(array,size);
-    printf("the result\t%d\n",result);
+	int size;
+	int array[];
+
+	printf("enter your array elements\n");
+	scanf("%d",&array);
+
+	printf("enter your element size\n");
+	scanf("%d",size);
+
+	int result = array_sum(array,size);
+	printf("the result\t%d\n",result);
     return 0;
 }
