@@ -90,8 +90,8 @@ Contributions are always welcome!
 You can reach me via:
 
 * GitHub Issues for discussions
-* [abdaliouhssin@gmail.com
-* ]
+* [abdaliouhssin@gmail.com]
+* Linkedin : Abdelali Ouhsine
 
 Thanks for visiting — and wish me luck on my 1000-problem journey!
 
