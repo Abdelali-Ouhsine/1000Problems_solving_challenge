@@ -51,8 +51,8 @@ int    big_sum(int array1[],int array2[])
 
 int main()
 {
-    int array[100] = {123};
-    int array1[100] = {123};
+    int array[] = {123};
+    int array1[] = {123};
 
     big_sum(array,array1);
 }
