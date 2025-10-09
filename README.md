@@ -89,7 +89,6 @@ Contributions are always welcome!
 
 You can reach me via:
 
-* GitHub Issues for discussions
 * [abdaliouhssin@gmail.com]
 * Linkedin : Abdelali Ouhsine
 
