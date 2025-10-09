@@ -15,7 +15,7 @@ By the end of this challenge, I aim to:
 * Strengthen my understanding of **data structures** and **algorithms**
 * Learn to write **clean, efficient, and optimized code**
 * Document my progress and solutions in a clear, reusable format
-
+* (printf is forbiden in functions)
 ---
 
 ## 🧩 Topics Covered
