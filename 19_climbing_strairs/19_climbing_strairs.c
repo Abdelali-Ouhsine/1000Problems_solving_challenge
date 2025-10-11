@@ -1,6 +1,5 @@
 
-
-int    ft_way(int n)
+int    Climbing_stairs(int n)
 {
 	int dp [n + 1];
 	
@@ -24,6 +23,6 @@ int main()
 	    int nb = 3;
         printf("enter your number\n");
         scanf("%d",&nb);
-	    printf("the ways of the reach %d is %d\n",nb,ft_way(nb));
+	    printf("the ways of the reach %d is %d\n",nb,Climbing_stairs(nb));
 	    return 0;
 }
