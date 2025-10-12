@@ -22,12 +22,11 @@ Constraints:
     1 <= numRows <= 30
 */
 
-
-int	power(int nb, int power)
+#include <stdio.h>
+int	ft_power(int nb,int power)
 {
 	int	i;
-	int j;
-
+	int	j;
 	i = 1;
 	j = nb;
 	if (power < 0)
@@ -46,15 +45,25 @@ int	power(int nb, int power)
 	return (j);
 }
 
-int	pascals_triangle(int numrows)
+int	pascals_triangle(int nb)
 {
-	int i;
-	int nb;
-
-	nb = 1;
-	i = 0;
-	while(nb[i])
+	int a = 0;;
+	int b = 0;
+	int numrows;
+	printf("enter your number");
+	scanf("%d",&nb);
+	if(nb)
 	{
-	power(nb);
+	numrows = 1 * ft_power(a,2) + 2 * (a + b) + 1 * ft_power(b,2);
 	}
+	return numrows;
+}
+
+#include <stdio.h>
+int main()
+{
+	int nb = 1;
+	int result = pascals_triangle(nb);
+	printf("the number of rows is %d",result);
+	return 0;
 }
