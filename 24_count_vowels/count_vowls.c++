@@ -1,26 +1,21 @@
-#include <stdio.h>
-int		count_vowels(char *str)
-{
-	int i;
-	int j;
+#include <iostream>
+#include <string>
+using namespace std;
 
-	j = 0;
-	i = 0;
-	while(str[i])
-	{
-		if(str[i] == 'a' || str[i] == 'e' || str[i] == 'u' || str[i] == 'i' || str[i] == 'o')
-		{
-			j = j + 1;
-		}
-		i++;
-	}
-	return j;
+int count_vowels(const string &str) {
+    int count = 0;
+    for (char c : str) {
+        if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' ||
+            c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U') {
+            count++;
+        }
+    }
+    return count;
 }
-#include <stdio.h>
-int main()
-{
-	char str[]= "the real goat";
-	int result = count_vowels(str);
-	printf("%d",result);
-	return 0;
+
+int main() {
+    string str = "the real goat";
+    int result = count_vowels(str);
+    cout << result << endl;
+    return 0;
 }
