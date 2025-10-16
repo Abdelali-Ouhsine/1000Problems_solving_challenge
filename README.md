@@ -39,11 +39,11 @@ Throughout this journey, I’ll explore and practice problems related to:
 
 ```
 📂 1000-Problems/
- ┣ 📁 Easy/
- ┣ 📁 Medium/
- ┣ 📁 Hard/
- ┣ 📁 Data-Structures/
- ┣ 📁 Algorithms/
+ ┣ Easy/
+ ┣ Medium/
+ ┣ Hard/
+ ┣ Data-Structures/
+ ┣ Algorithms/
  ┗ 📜 README.md
 ```
 
