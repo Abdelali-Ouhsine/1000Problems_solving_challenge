@@ -6,14 +6,16 @@ int main()
 {
 	int age;
 	int drive;
+	int result;
 
 	//read age and druverlicense
 	printf("enter your age");
         scanf("%d",&age);
-	printf("if you have a driver license enter 1 and 0 if not");
+	printf("if you have a driver license enter true");
 	scanf("%d",&drive);
 
-	if(age >= 21 && drive == true)
+	result = (age >= 21 && drive == true);
+	if(result == true)
 	{
 		printf("Hired");
 	}
