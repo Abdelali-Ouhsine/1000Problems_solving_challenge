@@ -12,7 +12,7 @@ void	ft_putstr(char *str)
 	int i;
 	i = 0;
 
-	while(nb[i])
+	while(str[i])
 	{
 		ft_putchar(str[i]);
 		i++;
@@ -21,17 +21,17 @@ void	ft_putstr(char *str)
 int main()
 {
 	int age;
-	int dive;
+	int drive;
 	int reco;
 
-	prinf("enter your age;");
-	scanf("%d",age);
-	printf("if you have a driver license enter 1 and 0 if not");
-	scanf("%d",drive);
-	printf("if you have recommendation enter 1 and 0 if not");
-	scanf("%d",reco);
+	printf("enter your age\t");
+	scanf("%d",&age);
+	printf("if you have a driver license enter 1 and 0 if not\t");
+	scanf("%d",&drive);
+	printf("if you have recommendation enter 1 and 0 if not \t");
+	scanf("%d",&reco);
 
-	if(age >= 21 && drive == true || reco == true)
+	if((age >= 21 && drive == true && reco == true) || (reco == true)) 
 	{
 		ft_putstr("Hired");
 	}
