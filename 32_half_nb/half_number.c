@@ -10,5 +10,5 @@ int main()
 
 	half = nb / 2;
 
-	printf("the half of this number is %d",half);
+	printf("the half of %d number is %d",nb,half);
 }
