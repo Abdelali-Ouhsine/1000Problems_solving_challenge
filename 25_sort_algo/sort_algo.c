@@ -31,6 +31,6 @@ int main()
 	int size = 4;
 
 	sort(tab,size);
-	printf("after process %ls",tab);
+	printf("after process %ls ",tab);
 	return 0;
 }
