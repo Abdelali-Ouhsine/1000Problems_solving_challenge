@@ -7,8 +7,8 @@ void    ft_putchar(char c)
 
 int    ft_atoi(char *str)
 {
-    int num;
-    int result;
+    int		num;
+    int 	result;
 
     while (*str >= '0' && *str <= '9')
     {
