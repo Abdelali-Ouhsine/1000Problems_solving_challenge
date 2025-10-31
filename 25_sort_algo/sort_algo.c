@@ -3,7 +3,7 @@ void	sort(int *tab, int size)
 {
 	int	i;
 	int	j;
-	int tmp;
+	int	tmp;
 
 	i = 0;
 	j = 0;

@@ -22,10 +22,10 @@ int main()
 {
 	int mark;
 
-	ft_putstr("enter your mark");
+	ft_putstr("enter your fucking mark");
 	scanf("%d",&mark);
 
-	if(mark >= 50)
+	if(mark	>= 50)
 	{
 		ft_putstr("Pass");
 	}
