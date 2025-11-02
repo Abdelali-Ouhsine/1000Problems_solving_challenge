@@ -19,14 +19,33 @@ void	ft_putstr(char *str)
 }
 */
 #include <stdio.h>
-int	main()
+#include <unistd.h>
+
+void	ft_puctchar(char c)
+{
+	write(1, &c ,1);
+}
+
+void	ft_putstr(char *str)
+{
+	int i;
+	i = 0;
+
+	while(str[i])
+	{
+		ft_putchar(str[i]);
+		i++;
+	}
+}
+
+void	chatai()
 {
 	char	*answer[100];
 	char	*flag = "red flag";
 	char	*age = "40 yo";
 	char	*goals= "950 goals"
 
-	printf("enter your answer here: ");
+	ft_putstr("enter your answer here: ");
 	scanf("%c", answer);
 
 		 if (nswer = flag)
@@ -44,3 +63,5 @@ int	main()
 		else
 		printf("i dont have answer for this question");
 }
+
+int	ain
