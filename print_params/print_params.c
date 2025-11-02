@@ -1,8 +1,8 @@
 #include <unistd.h>
 
-void    ft_putchar(char c)
+void    ft_putchar(char b)
 {
-    write(1, &c, 1);
+    write(1, &b, 1);
 }
 
 int main(int argc, char *argv[])
