@@ -2,7 +2,7 @@
 
 int   ft_diagnol_differnce()
 { 
-    int a, b, c , d, e, f;
+    int  b, c , d, e, f;
     int array1[3][3][3];
     int sum;
     int sum1;
