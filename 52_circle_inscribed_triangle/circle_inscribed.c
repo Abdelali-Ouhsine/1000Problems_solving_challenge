@@ -11,7 +11,7 @@ void    inscribed_triangle()
 
     printf("enter a and b of the triangle");
     scanf("%f %f", &a,&b);
-    area = ( pi * b * b /4) * ((2 * a - b) / (2 * a +b));
+    area = ( pi * b * b /4) * ((2 * a - b) / (2 * a + b));
     printf("thats the area of that ciecle%f", area);
 }
 

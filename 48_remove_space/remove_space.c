@@ -25,8 +25,7 @@ void	space_remove(char *str)
 	{
 		if(str[j] != ' ')
 		{
-			ft_putchar(str[j]);
-			
+			ft_putchar(str[j]);	
 		}
 		j++;
 	}

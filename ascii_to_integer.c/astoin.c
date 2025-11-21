@@ -12,8 +12,7 @@ int    ft_atoi(char *str)
 
     while (*str >= '0' && *str <= '9')
     {
-        *str++;
-        while (*str == '+' && *str == '-' || *str == 32)
+        while ((*str == '+' && *str == '-') || *str == 32)
     {
         result++;
         str++;
@@ -26,9 +25,10 @@ int    ft_atoi(char *str)
     return (*str);
     }
 }
-
+#include <stdio.h>
 int main()
 {
-    char str[] = "Shredder EGO";
-    ft_atoi(str);
+    char str[] = "++--2123456abcd";
+    printf("%d",ft_atoi(str));
+    return 0;
 }
