@@ -38,4 +38,4 @@ int main()
 
 	space_remove(test);
 	return 0;
-}
+}  
