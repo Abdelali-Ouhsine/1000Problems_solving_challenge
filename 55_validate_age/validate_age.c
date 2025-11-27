@@ -7,7 +7,15 @@ void    validate_age()
         scanf("%d",&age);  
         
         if (age >= 18 && age <= 45)
-        {            /* code */
+        {
+            printf("Valid Aeg");
         }
-        
+        else
+        printf("Invalid Age");   
+}
+
+int main()
+{
+    validate_age();
+    return 0;
 }
