@@ -56,7 +56,7 @@ Code is written mainly in **C / C++ / Python** (depending on the problem).
 
 | Milestone | Problems Solved | Status |
 | --------- | --------------- | ------ |
-| 🎯 100    | ☐               |        |
+| 🎯 100    | Soon            |        |
 | 🎯 250    | ☐               |        |
 | 🎯 500    | ☐               |        |
 | 🎯 750    | ☐               |        |
