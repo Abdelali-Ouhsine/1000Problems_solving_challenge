@@ -1,4 +1,4 @@
-#include "loacal.h"
+#include "local.h"
 #include <unistd.h>
 
 void    ft_putchar(char c)

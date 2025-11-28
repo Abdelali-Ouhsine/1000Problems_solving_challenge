@@ -10,6 +10,7 @@ void    described_around()
    
     printf("enter a and b and c for calculate the circle");
     scanf("%d %d %d",&a,&b,&c);
+    
      float   p = (a + b + c) / 2;
      float t = (a * b * c) / (4 *sqrt(p * (p-a) * (p-b) * (p-c)));
      float res = t * t;
