@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-void    sum_odd()
+void    sum_even()
 {
-    int sum = 0;
     int nb = 0;
+    int sum = 0;
     int counter = 1;
 
     printf("enter your number");
@@ -11,17 +11,17 @@ void    sum_odd()
 
     while (counter <= nb)
     {
-        if (counter % 2 != 0)
+        if (counter % 2 == 0)
         {
             sum += counter;
         }
         counter++;
     }
-    printf("thats the sum of the numbers from %d to 1 : %d",nb,sum);
+    printf("thats the sum of even numbers from %d to 1: %d ",nb,sum);
 }
 
 int main()
 {
-    sum_odd();
+    sum_even();
     return 0;
 }
