@@ -21,10 +21,12 @@ int    ft_atoi(char *str)
     {
         num += *str + 48;
         return(-*str);
+        
     }
     return (*str);
     }
 }
+#include <unistd.h>
 #include <stdio.h>
 int main()
 {

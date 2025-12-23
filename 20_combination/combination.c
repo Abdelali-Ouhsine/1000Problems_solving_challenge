@@ -16,7 +16,7 @@ int nSum(int n) {
 }
 
 int main() {
-    int n = 10; // Example input
+    int n = 9; // Example input
     printf("Sum of first %d numbers is %d\n", n, nSum(n));
     return 0;
 }
