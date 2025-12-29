@@ -30,5 +30,5 @@ turtle.goto(55, -75)
 turtle.pendown()
 turtle.circle(45)
 
-turtle.done()               
+turtle.done()
 
