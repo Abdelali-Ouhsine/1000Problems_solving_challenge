@@ -24,19 +24,26 @@ def each():
    for i in one_by_one:
       print(i)
 each()
+
 def longest_word():
-   longest = str(input("enter a sentence for display the longest word in that sentence"))
-   words = longest.split(' ')
-   for i in longest:
-      
-print(longest_word)
+    sentence = input("enter a sentence for display the longest word in that sentence: ")
+    words_list = sentence.split(" ")
+    count = 0
+    longest = ""
+    for word in words_list:
+        if len(word) > count:
+            count = len(word)
+            longest = word
+
+    return longest
+
+print(longest_word())
 
 def occurenc():
    occur = str(input("enter your words for check whos the most character in those words"))
    char = str(input("enter the character you want to wnat to count it"))
-   count = 0
-   for i in occur:
-      if i == char:
-         count += 1
-         print(f"the number of occurence is {count}")
-occurenc()
+   count = occur.count(char)
+
+   return count
+
+print(occurenc())
