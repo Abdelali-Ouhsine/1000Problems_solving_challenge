@@ -1,4 +1,4 @@
-
+ 
 notes = [12, 4, 14, 11, 18, 13, 7, 10, 5, 9, 15, 8, 14, 16]
 average = sum(notes) / len(notes)
 valid_notes = []
