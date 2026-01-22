@@ -23,3 +23,11 @@ char	*ft_strcapitalize(char *str)
 	}
 	return (str);
 }
+#include <stdio.h>
+int main()
+{
+	char str[] = "thats Shredder ego you kan know if you know";
+	char *res =ft_strcapitalize(str);
+	printf("thats the str after the process	\n%s",res);
+	return 0;
+}
