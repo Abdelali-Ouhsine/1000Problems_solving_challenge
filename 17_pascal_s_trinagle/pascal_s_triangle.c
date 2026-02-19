@@ -26,9 +26,9 @@ Constraints:
 int	ft_power(int nb,int power)
 {
 	int	i;
-	int	j;
+	int	k;
 	i = 1;
-	j = nb;
+	k = nb;
 	if (power < 0)
 	{
 		return (0);
@@ -39,10 +39,10 @@ int	ft_power(int nb,int power)
 	}
 	while (i < power)
 	{
-		j = j * nb;
+		k = k * nb;
 		i++;
 	}
-	return (j);
+	return (k);
 }
 
 int	pascals_triangle(int nb)
